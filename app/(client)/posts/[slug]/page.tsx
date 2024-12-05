@@ -2,11 +2,10 @@ import Header from '@/app/components/Header'
 import { Post } from '@/app/utils/interface'
 import { client } from '@/sanity/lib/client'
 import { urlForImage } from '@/sanity/lib/image'
-import { PortableText } from 'next-sanity'
+import { PortableText } from '@portabletext/react'
 import { VT323 } from 'next/font/google'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import { notFound } from "next/navigation";
 
 
